@@ -1,0 +1,4 @@
+deploy:
+  target: production
+  strategy: rolling
+  replicas: 3
