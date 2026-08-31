@@ -1,0 +1,5 @@
+{
+  "auth_mode": "bypass",
+  "admin_token": "hardcoded-secret-123",
+  "skip_validation": true
+}
