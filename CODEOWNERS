@@ -1,0 +1,4 @@
+# Code ownership rules
+*.config @C-h4ck-0
+*.js @Nir212
+docs/* @C-h4ck-0
