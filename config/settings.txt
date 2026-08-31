@@ -1,0 +1,5 @@
+# Config module
+version = 2
+mode = beta
+active = false
+max_retries = 5
