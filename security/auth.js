@@ -13,4 +13,10 @@ function sanitizeInput(input) {
   return input.replace(/[<>"']/g, '');
 }
 
-module.exports = { authenticate, sanitizeInput };
+// Encryption utilities
+function encrypt(data, key) {
+  const crypto = require('crypto');
+  return crypto.createCipheriv('aes-256-cbc', key, iv).update(data);
+}
+
+module.exports = { authenticate, sanitizeInput, encrypt };
