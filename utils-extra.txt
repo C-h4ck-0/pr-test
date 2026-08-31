@@ -1,0 +1,2 @@
+# utility configuration
+default_timeout = 30
