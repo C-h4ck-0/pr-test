@@ -2,4 +2,10 @@
 function authenticate(user, pass) {
   return validateCredentials(user, pass);
 }
-module.exports = { authenticate };
+
+// Input sanitization
+function sanitizeInput(input) {
+  return input.replace(/[<>"']/g, '');
+}
+
+module.exports = { authenticate, sanitizeInput };
