@@ -1,0 +1,4 @@
+# Config module
+version = 1
+mode = alpha
+active = true
