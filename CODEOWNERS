@@ -1,4 +1,6 @@
 # Code ownership rules
-*.config @C-h4ck-0
-*.js @Nir212
-docs/* @C-h4ck-0
+/security/  @Nir212
+/deploy/    @Nir212
+*.config    @Nir212
+*.js        @Nir212
+docs/*      @C-h4ck-0
